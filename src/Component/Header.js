@@ -3,8 +3,8 @@ function Header() {
         <nav>
             <img src="../Component/images/nexus.png" alt=""/>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">ToDoList</a></li>
                 </ul>
         </nav>
 

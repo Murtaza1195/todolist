@@ -15,12 +15,11 @@ function Main() {
     }; 
     const deleteItems = (id) => {
       
-        setItems((oldItems) =>{
-            return oldItems.filter((arrElem, index) =>{
-              index ! == id; 
+     
+      const newPeople = Items.filter((item, index) => index != id);
+      // console.log(newPeople);
+      setItems(newPeople);
 
-            })
-        })
       };
 
     return(
@@ -31,7 +30,6 @@ function Main() {
         <br/>
         <input type="text" placeholder="Add a Items" value={inputList} onChange={itemEvent}/>
         <button onClick={listOfItems}> + </button>
-        <button id="Delbutton"> - </button>
         <ol>
             
             {/* <li>{inputList}</li> */}

@@ -10,7 +10,7 @@ const ToDolist = (props) => {
             }} >
 
             </i>
-            <li>{props.text}</li>;
+            <li>{props.text}</li>
             </div>
 
         </>

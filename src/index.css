@@ -7,6 +7,37 @@
        font-family: "Josefin Sans", "Arial Narrow", "Arial", "sans-serif";
    }
    
+   nav {
+       background: #8566aa;
+       min-height: 10vh;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 30px 0px 0px;
+   }
+   
+   nav ul {
+       display: flex;
+       align-items: center;
+       list-style: none;
+   }
+   
+   nav ul li {
+       padding: 0px 15px;
+   }
+   
+   nav ul li a {
+       text-decoration: none;
+       color: white;
+       font-weight: 500;
+       font-size: 20px;
+   }
+   
+   nav ul li a:hover {
+       color: #da2a2a;
+   }
+   
    .main_div {
        background: #6983aa;
        width: 100%;
